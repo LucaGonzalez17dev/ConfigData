@@ -10,7 +10,7 @@
 #      password: root
 
 server:
-    port: 0
+    port: 8081
   spring:
     application:
       name: api-movie
