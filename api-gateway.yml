@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: gateway
+    name: api-gateway
   cloud:    
     gateway:      
       discovery:
@@ -36,4 +36,4 @@ management:
    endpoints:
       web:
          exposure:
-            include: gateway
+            include: api-gateway
