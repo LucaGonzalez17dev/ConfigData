@@ -18,6 +18,10 @@ spring:
           uri: lb://api-movies
           predicates:
             - Path=/api/v1/movies/**
+        - id: msseries
+          uri: http://localhost:59190
+          predicates:
+            - Path=/api/v1/series**
 
 info:
   app:
