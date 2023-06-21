@@ -3,7 +3,7 @@ server:
 spring:
   application:
     name: api-catalog
-    mongodb:
+  mongodb:
     embedded:
       version: 4.0.2
   data:
