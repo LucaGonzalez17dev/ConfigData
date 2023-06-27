@@ -42,5 +42,11 @@ resilience4j:
         sliding-window-size: 5
         wait-duration-in-open-state: 1m
         failure-rate-threshold: 20
+      movieService:
+        base-config: default
+        sliding-window-type: COUNT_BASED
+        sliding-window-size: 5
+        wait-duration-in-open-state: 1m
+        failure-rate-threshold: 20
      
 
