@@ -3,8 +3,13 @@ server:
   spring:
     application:
       name: api-movie
-#    zipkin:
-#      baseurl: http://localhost:9411/
+    rabbitmq:
+      username: guest
+      password: guest
+      host: localhost
+      port: 5672
+#   zipkin:
+#     baseurl: http://localhost:9411/
 
 #Si quiere que ejecute con H2 y no con SQL descomente lo sigueinte, y comente el datasource anterior
 jpa:
